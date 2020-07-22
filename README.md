@@ -2,7 +2,7 @@
 fan.catholic.ac.kr 의 API Reference Repository 입니다.
 # 작성예시
 
-## 로그인 (토큰흭득) (예시)
+## 로그인 (토큰흭득) (예시) - 프론트가 백엔드에게 요청하는 경우 ( 요청 ), 백엔드가 요청한 API 제작 완료한 경우 ( 완료 )
 - URI : fan.catholic.ac.kr:5000/login
 - METHOD : POST
 - request
