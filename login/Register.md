@@ -1,17 +1,16 @@
 # fan.catholic.ac.kr-api-reference
 fan.catholic.ac.kr 의 API Reference Repository 입니다.
-# 작성예시
 
-## 로그인 (토큰흭득) (예시)
-- (예시) 부분에 프론트가 백엔드에게 요청하는 경우 ( 요청 ), 프론트가 요청한 API 백엔드가 제작 완료한 경우 ( 완료 )
+## 회원가입 (요청)
+-  부분에 프론트가 백엔드에게 요청하는 경우 ( 요청 ), 프론트가 요청한 API 백엔드가 제작 완료한 경우 ( 완료 )
 - URI : fan.catholic.ac.kr:5000/login
 - METHOD : POST
 - request
 
     | key | explanation | type |
     |--- |--- |--- |
-    | username | user id | string |
-    | password | password | string |
+    | user_id | login id | string |
+    | pwd | password | string |
 
 - response code
     - Header :
@@ -30,6 +29,8 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
             | 400 |0| 파라미터 오류, 상세 내용은 error_msg 참고 |
             | 401 |1| 토큰 만료 | 아이디에 특수문자 존재 등|
             | 401 |2| 토큰이 존재하지 않음|
+            |     |3| 아이디가 없을 때|
+            |     |4| 비밀번호가 일치하지 않을때|
     
     - SUCCESS RESPONSE
     
@@ -37,3 +38,7 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
         |--- |--- |--- |
         | token | 발급 토큰(클라이언트에서 저장하세요!) | string |
         | created | 토큰 발급 일 시 | string |
+        
+ - <응답-로그인> 로그인 성공: {id}님 안녕하세요 ! 로그인 실패: 다시 로그인 하세요 !
+
+ - <로그아웃 응답> 로그아웃시: Free meeting Active studying Nice ending! :) 
