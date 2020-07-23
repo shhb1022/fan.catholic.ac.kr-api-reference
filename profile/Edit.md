@@ -10,9 +10,9 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
     | key | explanation | type |
     |--- |--- |--- |
     |user_id  | id:아이디    | string
-    |password | pwd:비밀번호 | string
+    |user_pwd | pwd:비밀번호 | string
     |name     | name :이름   | string
-    |student_id| 학번        | int
+    |student_id| student_id학번 | int
     |grade    | grade :학년  | int
     |semester |semester:학기 | int
     |phone    |phone:전화번호|string
