@@ -30,6 +30,6 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
     
         | key | explanation | type |
         |--- |--- |--- |
-        |  | Book List | string |
+        |   | Book List | string |
         
 
