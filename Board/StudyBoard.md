@@ -1,4 +1,4 @@
-# fan.catholic.ac.kr-api-reference  - 스터디 보드 게시판 작성 
+# fan.catholic.ac.kr-api-reference  - 스터디 보드 게시판 작성  (요청)
 
 fan.catholic.ac.kr 의 API Reference Repository 입니다.
 
