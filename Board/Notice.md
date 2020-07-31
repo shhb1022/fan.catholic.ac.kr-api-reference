@@ -1,4 +1,4 @@
-# fan.catholic.ac.kr-api-reference  -  공지사항 게시판 api 작성 예정
+# fan.catholic.ac.kr-api-reference  -  공지사항 게시판 api 작성 (요청)
 fan.catholic.ac.kr 의 API Reference Repository 입니다.
 
 - (예시) 부분에 프론트가 백엔드에게 요청하는 경우 ( 요청 ), 프론트가 요청한 API 백엔드가 제작 완료한 경우 ( 완료 )
