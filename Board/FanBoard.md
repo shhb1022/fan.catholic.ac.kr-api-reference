@@ -1,6 +1,6 @@
 # fan.catholic.ac.kr-api-reference
 
-팬 자유 게시판 작성 (요청)
+# 팬 자유 게시판 작성 (요청)
 
 fan.catholic.ac.kr 의 API Reference Repository 입니다.
 
