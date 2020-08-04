@@ -1,15 +1,15 @@
 # fan.catholic.ac.kr-api-reference
 fan.catholic.ac.kr 의 API Reference Repository 입니다.
 
-## 책 수정 (요청)
+## 책 수정 (완료)
 - URI : fan.catholic.ac.kr:5000/api/library/edit
 - METHOD : POST
 - request
 
     | key | explanation | type |
     |--- |--- |--- |
-    | count | book num | int |
-    | image | image path | string |
+    | edit_count | book num | int |
+    | edit_image | image path | string |
     
 
 - response code
