@@ -8,6 +8,7 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
 
     | key | explanation | type |
     |--- |--- |--- |
+    | title | book title | string |
     | edit_count | book num | int |
     | edit_image | image path | string |
     
