@@ -4,7 +4,7 @@
 fan.catholic.ac.kr 의 API Reference Repository 입니다.
 
 - (예시) 부분에 프론트가 백엔드에게 요청하는 경우 ( 요청 ), 프론트가 요청한 API 백엔드가 제작 완료한 경우 ( 완료 )
-- URI : fan.catholic.ac.kr:5000/api/fanboard
+- URI : fan.catholic.ac.kr:5000/api/notice
 - METHOD : PUT (게시글에 대한 리스트를 작성하는 것으로 PUT이라고 이해했습니다 다만 문제가 있다면 고쳐주세요!)
 
 - request
