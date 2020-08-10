@@ -1,4 +1,4 @@
-# fan.catholic.ac.kr-api-reference - 팬 자유 게시판 리스트 (요청)
+# fan.catholic.ac.kr-api-reference - 팬 스터디 게시판 리스트 (요청)
 # 의도: ( 새로운 글쓰기를 클릭을 하여 ) 글을 작성하여 적고 리스트로 보낼 예정입니다.
 
 fan.catholic.ac.kr 의 API Reference Repository 입니다.
