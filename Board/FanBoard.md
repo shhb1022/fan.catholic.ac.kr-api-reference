@@ -34,7 +34,6 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
             | 401 |2| 토큰이 존재하지 않음|
             | |3| 로그인 안한 사람이 글을 작성 하려고 함|
             | |4| 본인의 게시글이 아닌 타인의 게시글을 삭제 하려는 경우|
-            | |5| 높은 회원 등급의 글을 삭제 하려는 경우|
    
     - SUCCESS RESPONSE
     
