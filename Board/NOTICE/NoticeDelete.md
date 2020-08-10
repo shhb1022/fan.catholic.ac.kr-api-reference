@@ -13,8 +13,6 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
     |--- |--- |--- |
     | user_id | 로그인 된 현재 아이디 | string |
     | title | 제목 | string |
-    | text | 내용 | string |
-    | image | 이미지 및 파일들? | string |
     | delete | 삭제 요청| string |
     
 
