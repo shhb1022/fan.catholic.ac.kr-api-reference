@@ -40,7 +40,6 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
         | key | explanation | type |
         |--- |--- |--- |
         | user_id | 가입자 아이디 | string |
-        | token | 발급 토큰(클라이언트에서 저장하세요!) | string |
         
        -  <응답-회원 가입시> 회원가입 성공 : {id}님 환영합니다! 
        -  회원가입 실패: 빈칸이나 혹은 오타 확인 해주세요!
