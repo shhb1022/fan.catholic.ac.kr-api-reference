@@ -34,7 +34,6 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
         | key | explanation | type |
         |--- |--- |--- |
         | user_id | 사용자 아이디 | string |
-        | token | 발급 토큰(클라이언트에서 저장하세요!) | string |
         
  - <응답-로그인> 로그인 성공: {id}님 안녕하세요 ! 로그인 실패: 다시 로그인 하세요 !
 
