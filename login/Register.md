@@ -1,7 +1,7 @@
 # fan.catholic.ac.kr-api-reference
 fan.catholic.ac.kr 의 API Reference Repository 입니다.
 
-## 회원가입 (요청)
+## 회원가입 (완료)
 - (예시) 부분에 프론트가 백엔드에게 요청하는 경우 ( 요청 ), 프론트가 요청한 API 백엔드가 제작 완료한 경우 ( 완료 )
 - URI : fan.catholic.ac.kr:5000/api/register
 - METHOD : POST
