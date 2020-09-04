@@ -1,7 +1,7 @@
 # fan.catholic.ac.kr-api-reference
 fan.catholic.ac.kr 의 API Reference Repository 입니다.
 
-## 회원가입 (요청)
+## 로그인 (완료)
 -  부분에 프론트가 백엔드에게 요청하는 경우 ( 요청 ), 프론트가 요청한 API 백엔드가 제작 완료한 경우 ( 완료 )
 - URI : fan.catholic.ac.kr:5000/api/login
 - METHOD : POST
@@ -18,9 +18,9 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
     - ERROR RESPONSE
     
         |    key   | explanation |   type  |
-        | -------- | ----------- |-------- |
-        |error_code| 오류 코드     | integer | 
+        | -------- | ----------- |-------- | 
         | login | False  | string  |
+        |error_code| 오류 코드     | integer |
         
         - error_code (오류 별 반환 내용 및 상태)
         
