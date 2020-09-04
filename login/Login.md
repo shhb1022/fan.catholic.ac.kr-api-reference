@@ -20,7 +20,7 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
         |    key   | explanation |   type  |
         | -------- | ----------- |-------- |
         |error_code| 오류 코드     | integer | 
-        |error_msg | 오류 내용  | string  |
+        | login | False  | string  |
         
         - error_code (오류 별 반환 내용 및 상태)
         
@@ -33,7 +33,9 @@ fan.catholic.ac.kr 의 API Reference Repository 입니다.
     
         | key | explanation | type |
         |--- |--- |--- |
+        | login | True | string |
         | user_id | 사용자 아이디 | string |
+        | token | 사용자 토큰 | string |
         
  - <응답-로그인> 로그인 성공: {id}님 안녕하세요 ! 로그인 실패: 다시 로그인 하세요 !
 
